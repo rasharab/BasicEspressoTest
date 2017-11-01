@@ -85,6 +85,6 @@ public class SomeOtherTestSuite {
         onView(withId(R.id.activityChangeTextBtn)).perform(click());
 
         // This view is in a different Activity, no need to tell Espresso.
-        onView(withId(R.id.show_text_view)).check(matches(withText("SomeOtherThing")));
+        onView(withId(R.id.show_text_view)).check(matches(withText("SomeOtherThingBlah")));
     }*/
 }
